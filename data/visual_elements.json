@@ -1,0 +1,289 @@
+[
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 1,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p1_fig1.png",
+    "caption": "Figure 1. Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer 'plain' networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig. 4."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 2,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p2_fig2.png",
+    "caption": "Figure 2. Residual learning: a building block."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 4,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p4_fig3.png",
+    "caption": "Figure 3. Example network architectures for ImageNet. Left : the VGG-19 model [41] (19.6 billion FLOPs) as a reference. Middle : a plain network with 34 parameter layers (3.6 billion FLOPs). Right : a residual network with 34 parameter layers (3.6 billion FLOPs). The dotted shortcuts increase dimensions. Table 1 shows more details and other variants."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 5,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p5_fig4.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 6,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p6_fig5.png",
+    "caption": "Figure 5. A deeper residual function F for ImageNet. Left: a building block (on 56 × 56 feature maps) as in Fig. 3 for ResNet34. Right: a 'bottleneck' building block for ResNet-50/101/152."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 8,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p8_fig6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 8,
+    "type": "figure",
+    "image_path": "data\\images\\Denseresultstable_p8_fig7.png",
+    "caption": "Figure 6. Training on CIFAR-10 . Dashed lines denote training error, and bold lines denote testing error. Left : plain networks. The error of plain-110 is higher than 60% and not displayed. Middle : ResNets. Right : ResNets with 110 and 1202 layers."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 1,
+    "type": "figure",
+    "image_path": "data\\images\\Longdocument_p1_fig1.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 5,
+    "type": "figure",
+    "image_path": "data\\images\\Longdocument_p5_fig2.png",
+    "caption": "Figure 2: Comparison between closed-domain and open-domain multimodal RAG . (a) In the closed domain, the model leverages in-document retrieval from a single document to answer context-specific questions. (b) In the open domain, the model relies on crossdocument retrieval from multiple documents to answer open-ended questions."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 5,
+    "type": "figure",
+    "image_path": "data\\images\\Longdocument_p5_fig3.png",
+    "caption": "Figure 3: Comparison of retrieval modality: (a) image-based RAG retrieves information solely from page images, offering efficiency but limited textual detail; (b) image+text-based RAG integrates OCR/annotations with visual features, enabling richer retrieval at the cost of higher processing complexity."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 6,
+    "type": "figure",
+    "image_path": "data\\images\\Longdocument_p6_fig4.png",
+    "caption": "Figure 4: Comparison of retrieval granularity in multimodal document search. (a) Page-level: entire pages are encoded and ranked as whole units. (b) Elementlevel: pages are decomposed into tables, charts, images, and text blocks; retrieval operates over these elements to localize evidence and aggregate results."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 7,
+    "type": "figure",
+    "image_path": "data\\images\\Longdocument_p7_fig5.png",
+    "caption": "Figure 5: Hybrid enhancements for multimodal RAG. (a) Graph-based: documents/elements form a graph index, and retrieval proceeds via graph traversal to surface relevant neighborhoods. (b) Agent-based: an LLM agent decomposes the text query, orchestrates multimodal retrieval, verifies the gathered evidence, and synthesizes the final answer."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 1,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p1_fig1.png",
+    "caption": "Figure 1. Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer 'plain' networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig. 4."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 2,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p2_fig2.png",
+    "caption": "Figure 2. Residual learning: a building block."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 4,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p4_fig3.png",
+    "caption": "Figure 3. Example network architectures for ImageNet. Left : the VGG-19 model [41] (19.6 billion FLOPs) as a reference. Middle : a plain network with 34 parameter layers (3.6 billion FLOPs). Right : a residual network with 34 parameter layers (3.6 billion FLOPs). The dotted shortcuts increase dimensions. Table 1 shows more details and other variants."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 5,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p5_fig4.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 6,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p6_fig5.png",
+    "caption": "Figure 5. A deeper residual function F for ImageNet. Left: a building block (on 56 × 56 feature maps) as in Fig. 3 for ResNet34. Right: a 'bottleneck' building block for ResNet-50/101/152."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 8,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p8_fig6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 8,
+    "type": "figure",
+    "image_path": "data\\images\\multi-part figures_p8_fig7.png",
+    "caption": "Figure 6. Training on CIFAR-10 . Dashed lines denote training error, and bold lines denote testing error. Left : plain networks. The error of plain-110 is higher than 60% and not displayed. Middle : ResNets. Right : ResNets with 110 and 1202 layers."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 3,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p3_fig1.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 6,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p6_fig2.png",
+    "caption": "Figure 2: Breakdown of VTAB performance in Natural , Specialized , and Structured task groups."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 7,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p7_fig3.png",
+    "caption": "Figure 3: Transfer to ImageNet. While large ViT models perform worse than BiT ResNets (shaded area) when pre-trained on small datasets, they shine when pre-trained on larger datasets. Similarly, larger ViT variants overtake smaller ones as the dataset grows."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 7,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p7_fig4.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 7,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p7_fig5.png",
+    "caption": "Figure 4: Linear few-shot evaluation on ImageNet versus pre-training size. ResNets perform better with smaller pre-training datasets but plateau sooner than ViT, which performs better with larger pre-training. ViT-b is ViT-B with all hidden dimensions halved."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 8,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p8_fig6.png",
+    "caption": "Figure 6: Representative examples of attention from the output token to the input space. See Appendix D.7 for details."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 9,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p9_fig7.png",
+    "caption": "Figure 7: Left: Filters of the initial linear embedding of RGB values of ViT-L/32. Center: Similarity of position embeddings of ViT-L/32. Tiles show the cosine similarity between the position embedding of the patch with the indicated row and column and the position embeddings of all other patches. Right: Size of attended area by head and network depth. Each dot shows the mean attention distance across images for one of 16 heads at one layer. See Appendix D.7 for details."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 16,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p16_fig8.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 17,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p17_fig9.png",
+    "caption": "Figure 9: Comparison of class-token and global average pooling classifiers. Both work similarly well, but require different learning-rates."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 18,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p18_fig10.png",
+    "caption": "Figure 10: Position embeddings of models trained with different hyperparameters."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 18,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p18_fig11.png",
+    "caption": "Figure 11: Size of attended area by head and network depth. Attention distance was computed for 128 example images by averaging the distance between the query pixel and all other pixels, weighted by the attention weight. Each dot shows the mean attention distance across images for one of 16 heads at one layer. Image width is 224 pixels."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 19,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p19_fig12.png",
+    "caption": "Figure 12: Left: Real wall-clock timings of various architectures across input sizes. ViT models have speed comparable to similar ResNets. Right : Largest per-core batch-size fitting on device with various architectures across input sizes. ViT models are clearly more memory-efficient."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 20,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p20_fig13.png",
+    "caption": "Figure 13: Performance of Axial-Attention based models, in terms of top-1 accuracy on ImageNet 5-shot linear, versus their speed in terms of number of FLOPs ( left ) and inference time ( left )."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 20,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p20_fig14.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 21,
+    "type": "figure",
+    "image_path": "data\\images\\Multiplefiguretypes_p21_fig15.png",
+    "caption": "Figure 14: Further example attention maps as in Figure 6 (random selection)."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 3,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p3_fig1.png",
+    "caption": "Figure 1: The Transformer - model architecture."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 4,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p4_fig2.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 4,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p4_fig3.png",
+    "caption": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 13,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p13_fig4.png",
+    "caption": "Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb 'making', completing the phrase 'making...more difficult'. Attentions here shown only for the word 'making'. Different colors represent different heads. Best viewed in color."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 14,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p14_fig5.png",
+    "caption": "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word 'its' for attention heads 5 and 6. Note that the attentions are very sharp for this word."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 15,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p15_fig6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 15,
+    "type": "figure",
+    "image_path": "data\\images\\Two-column layout_p15_fig7.png",
+    "caption": "Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks."
+  }
+]

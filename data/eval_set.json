@@ -1,0 +1,214 @@
+[ {
+    "id": "q16",
+    "doc_id": "Denseresultstable",
+    "category": "figure_based",
+    "question": "What does Figure 6 compare on CIFAR-10?",
+    "expected_answer": "It compares the training and testing behavior of plain networks and ResNets, including ResNets with 110 and 1202 layers.",
+    "expected_pages": [8]
+  },
+  {
+    "id": "q1",
+    "doc_id": "Denseresultstable",
+    "category": "basic_factual",
+    "question": "What problem does the Deep Residual Learning paper address?",
+    "expected_answer": "The degradation problem in very deep neural networks, where increasing depth can cause higher training error.",
+    "expected_pages": [1, 2]
+  },
+  {
+    "id": "q2",
+    "doc_id": "Denseresultstable",
+    "category": "basic_factual",
+    "question": "What is the main idea of residual learning?",
+    "expected_answer": "Instead of directly learning the underlying mapping H(x), the stacked layers learn a residual function F(x) = H(x) - x, with the original mapping represented as F(x) + x.",
+    "expected_pages": [3]
+  },
+  {
+    "id": "q3",
+    "doc_id": "Attention Is All You Need",
+    "category": "basic_factual",
+    "question": "What architecture does the paper propose for sequence transduction?",
+    "expected_answer": "The Transformer, an architecture based entirely on attention mechanisms without recurrence or convolution.",
+    "expected_pages": [1, 2]
+  },
+  {
+    "id": "q4",
+    "doc_id": "An Image is Worth 16x16 Words",
+    "category": "basic_factual",
+    "question": "What is the main idea behind the Vision Transformer?",
+    "expected_answer": "A pure Transformer can be applied directly to a sequence of image patches for image classification, without relying on convolutional layers.",
+    "expected_pages": [1, 2]
+  },
+  {
+    "id": "q5",
+    "doc_id": "Distilling the Knowledge in a Neural Network",
+    "category": "basic_factual",
+    "question": "What is the main goal of knowledge distillation?",
+    "expected_answer": "To transfer useful knowledge from a large cumbersome model or ensemble into a smaller model that is easier to deploy.",
+    "expected_pages": [1, 2]
+  },
+
+  {
+    "id": "q6",
+    "doc_id": "Denseresultstable",
+    "category": "numerical",
+    "question": "How many layers did the residual network described as the deepest network ever presented on ImageNet have?",
+    "expected_answer": "152 layers.",
+    "expected_pages": [2]
+  },
+  {
+    "id": "q7",
+    "doc_id": "Denseresultstable",
+    "category": "numerical",
+    "question": "What was the top-5 error of the ResNet ensemble on the ImageNet test set?",
+    "expected_answer": "3.57%.",
+    "expected_pages": [2]
+  },
+  {
+    "id": "q8",
+    "doc_id": "Denseresultstable",
+    "category": "numerical",
+    "question": "How many layers did the aggressively deep CIFAR-10 network have?",
+    "expected_answer": "1202 layers.",
+    "expected_pages": [8]
+  },
+  {
+    "id": "q9",
+    "doc_id": "Attention Is All You Need",
+    "category": "numerical",
+    "question": "How many encoder and decoder layers does the standard Transformer described in the paper use?",
+    "expected_answer": "Six encoder layers and six decoder layers.",
+    "expected_pages": [3]
+  },
+  {
+    "id": "q10",
+    "doc_id": "An Image is Worth 16x16 Words",
+    "category": "numerical",
+    "question": "How many parallel attention heads are used in the Transformer encoder of the Vision Transformer configuration described in the paper?",
+    "expected_answer": "12 attention heads.",
+    "expected_pages": [3, 4]
+  },
+
+  {
+    "id": "q11",
+    "doc_id": "Denseresultstable",
+    "category": "table_based",
+    "question": "According to Table 2, what is the top-1 error of the 34-layer ResNet?",
+    "expected_answer": "25.03%.",
+    "expected_pages": [5]
+  },
+  {
+    "id": "q12",
+    "doc_id": "Denseresultstable",
+    "category": "table_based",
+    "question": "According to Table 2, what are the top-1 errors of the 18-layer and 34-layer ResNets?",
+    "expected_answer": "27.88% for the 18-layer ResNet and 25.03% for the 34-layer ResNet.",
+    "expected_pages": [5]
+  },
+  {
+    "id": "q13",
+    "doc_id": "Denseresultstable",
+    "category": "table_based",
+    "question": "According to Table 3, what are the top-1 and top-5 error rates reported for ResNet-101?",
+    "expected_answer": "21.75% top-1 error and 6.05% top-5 error.",
+    "expected_pages": [5]
+  },
+  {
+    "id": "An Image is Worth 16x16 Words",
+    "doc_id": "An Image is Worth 16x16 Words",
+    "category": "table_based",
+    "question": "According to Table 2, what accuracy does ViT-H/14 achieve on the VTAB benchmark?",
+    "expected_answer": "77.63%.",
+    "expected_pages": [6]
+  },
+
+  {
+    "id": "q15",
+    "doc_id": "Denseresultstable",
+    "category": "figure_based",
+    "question": "What does Figure 1 show about the 20-layer and 56-layer plain networks on CIFAR-10?",
+    "expected_answer": "The deeper 56-layer plain network has higher training error and therefore higher test error.",
+    "expected_pages": [1]
+  },
+  {
+    "id": "q16",
+    "doc_id": "Denseresultstable",
+    "category": "figure_based",
+    "question": "What does Figure 6 compare on CIFAR-10?",
+    "expected_answer": "It compares the training and testing behavior of plain networks and ResNets, including ResNets with 110 and 1202 layers.",
+    "expected_pages": [8]
+  },
+  {
+    "id": "An Image is Worth 16x16 Words",
+    "category": "figure_based",
+    "question": "What does Figure 4 show about Vision Transformers and ResNets as the pre-training dataset grows?",
+    "expected_answer": "ResNets perform better with smaller pre-training datasets but plateau sooner, while Vision Transformers perform better as the pre-training dataset becomes larger.",
+    "expected_pages": [7],
+    "doc_id": "An Image is Worth 16x16 Words"
+  },
+
+  {
+    "id": "q18",
+    "doc_id": "Scaling Beyond Context",
+    "category": "cross_page_section",
+    "question": "Why does the survey argue that multimodal document retrieval needs finer-grained retrieval than treating an entire page as one unit?",
+    "expected_answer": "Because documents contain structured elements such as tables, charts, images, and text blocks, and finer-grained retrieval can localize evidence more precisely and produce more contextually grounded answers.",
+    "expected_pages": [6]
+  },
+  {
+    "id": "q19",
+    "doc_id": "Denseresultstable",
+    "category": "cross_page_section",
+    "question": "Why does the paper argue that the degradation problem is not simply caused by overfitting?",
+    "expected_answer": "Because adding layers can increase training error itself, even though a deeper model has a constructed solution based on identity mappings that should theoretically avoid higher training error.",
+    "expected_pages": [1, 2]
+  },
+  {
+    "id": "q20",
+    "doc_id": "Distilling the Knowledge in a Neural Network",
+    "category": "cross_page_section",
+    "question": "Why can soft targets contain more useful information than hard class labels?",
+    "expected_answer": "Soft targets contain information about the relative probabilities of different classes and therefore capture a richer similarity structure between classes.",
+    "expected_pages": [2]
+  },
+  {
+    "id": "An Image is Worth 16x16 Words",
+    "category": "cross_page_section",
+    "question": "Why do the authors conclude that large Vision Transformers benefit more from large pre-training datasets?",
+    "expected_answer": "Because larger ViT models underperform on smaller datasets but become increasingly effective as the amount of pre-training data grows, where their performance can surpass smaller models and ResNet-based alternatives.",
+    "expected_pages": [6, 7],
+    "doc_id": "An Image is Worth 16x16 Words"
+  },
+
+  {
+    "id": "q22",
+    "doc_id": "Attention Is All You Need",
+    "category": "two_column_reading_order",
+    "question": "What two sub-layers are present in every encoder layer, and what additional sub-layer is present in every decoder layer?",
+    "expected_answer": "Each encoder layer has a multi-head self-attention sub-layer and a position-wise feed-forward sub-layer. Each decoder layer adds a third sub-layer performing multi-head attention over the encoder output.",
+    "expected_pages": [3]
+  },
+  {
+    "id": "q23",
+    "doc_id": "Attention Is All You Need",
+    "category": "two_column_reading_order",
+    "question": "What are the three different ways multi-head attention is used in the Transformer?",
+    "expected_answer": "Encoder-decoder attention, encoder self-attention, and decoder self-attention with masking.",
+    "expected_pages": [5]
+  },
+  {
+    "id": "q24",
+    "doc_id": "Attention Is All You Need",
+    "category": "two_column_reading_order",
+    "question": "Why does the Transformer use positional encodings?",
+    "expected_answer": "Because the Transformer contains no recurrence or convolution, positional encodings provide information about the order or position of tokens in the sequence.",
+    "expected_pages": [6]
+  },
+  {
+    "id": "q25",
+    "doc_id": "Distilling the Knowledge in a Neural Network",
+    "category": "two_column_reading_order",
+    "question": "In the MNIST experiment, how did the distilled smaller network compare with the unregularized smaller network?",
+    "expected_answer": "The smaller network had 146 test errors without regularization, while the distilled version trained with soft targets at temperature 20 achieved 74 test errors.",
+    "expected_pages": [3]
+  }
+]

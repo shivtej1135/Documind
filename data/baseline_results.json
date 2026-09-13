@@ -1,0 +1,65 @@
+{
+  "total_questions": 26,
+  "page_hit_rate": 0.038461538461538464,
+  "answer_match_rate": 0.038461538461538464,
+  "hallucination_pass_rate": 0.038461538461538464,
+  "category_stats": {
+    "figure_based": {
+      "total": 1,
+      "page_hits": 1,
+      "hallucination_passes": 1,
+      "answer_matches": 1
+    }
+  },
+  "results": [
+    {
+      "id": "q16",
+      "doc_id": "Denseresultstable",
+      "category": "figure_based",
+      "question": "What does Figure 6 compare on CIFAR-10?",
+      "expected_answer": "It compares the training and testing behavior of plain networks and ResNets, including ResNets with 110 and 1202 layers.",
+      "expected_pages": [
+        8
+      ],
+      "generated_answer": "Figure 6 compares the training error (dashed lines) and testing error (bold lines) of plain networks versus ResNets, including very deep ResNets with 110 and 1202 layers, on the CIFAR-10 dataset.",
+      "sources": [
+        {
+          "doc_id": "multi-part figures",
+          "page_num": 7,
+          "chunk_type": "text",
+          "section_heading": "4.2. CIFAR-10 and Analysis"
+        },
+        {
+          "doc_id": "Denseresultstable",
+          "page_num": 7,
+          "chunk_type": "text",
+          "section_heading": "4.2. CIFAR-10 and Analysis"
+        },
+        {
+          "doc_id": "multi-part figures",
+          "page_num": 8,
+          "chunk_type": "text",
+          "section_heading": "4.2. CIFAR-10 and Analysis"
+        },
+        {
+          "doc_id": "Denseresultstable",
+          "page_num": 8,
+          "chunk_type": "text",
+          "section_heading": "4.2. CIFAR-10 and Analysis"
+        }
+      ],
+      "hallucination_check": {
+        "unsupported_numbers": [],
+        "passed": true
+      },
+      "retrieved_pages": [
+        7,
+        7,
+        8,
+        8
+      ],
+      "page_hit": true,
+      "answer_match": true
+    }
+  ]
+}
