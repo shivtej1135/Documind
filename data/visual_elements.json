@@ -49,6 +49,111 @@
     "caption": "Figure 6. Training on CIFAR-10 . Dashed lines denote training error, and bold lines denote testing error. Left : plain networks. The error of plain-110 is higher than 60% and not displayed. Middle : ResNets. Right : ResNets with 110 and 1202 layers."
   },
   {
+    "doc_id": "Denseresultstable",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p5_table1.png",
+    "caption": "Table 1. Architectures for ImageNet. Building blocks are shown in brackets (see also Fig. 5), with the numbers of blocks stacked. Downsampling is performed by conv3 1, conv4 1, and conv5 1 with a stride of 2."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p5_table2.png",
+    "caption": "Figure 4. Training on ImageNet . Thin curves denote training error, and bold curves denote validation error of the center crops. Left: plain networks of 18 and 34 layers. Right: ResNets of 18 and 34 layers. In this plot, the residual networks have no extra parameter compared to their plain counterparts."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p6_table3.png",
+    "caption": "Table 3. Error rates (%, 10-crop testing) on ImageNet validation. VGG-16 is based on our test. ResNet-50/101/152 are of option B that only uses projections for increasing dimensions."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p6_table4.png",
+    "caption": "Table 4. Error rates (%) of single-model results on the ImageNet validation set (except † reported on the test set)."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p6_table5.png",
+    "caption": "Table 5. Error rates (%) of ensembles . The top-5 error is on the test set of ImageNet and reported by the test server."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p7_table6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p7_table7.png",
+    "caption": "Table 6. Classification error on the CIFAR-10 test set. All methods are with data augmentation. For ResNet-110, we run it 5 times and show 'best (mean ± std)' as in [43]."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p8_table8.png",
+    "caption": "Table 7. Object detection mAP (%) on the PASCAL VOC 2007/2012 test sets using baseline Faster R-CNN. See also Table 10 and 11 for better results."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p8_table9.png",
+    "caption": "Table 8. Object detection mAP (%) on the COCO validation set using baseline Faster R-CNN. See also Table 9 for better results."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p11_table10.png",
+    "caption": "Table 9. Object detection improvements on MS COCO using Faster R-CNN and ResNet-101."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p11_table11.png",
+    "caption": "Table 10. Detection results on the PASCAL VOC 2007 test set. The baseline is the Faster R-CNN system. The system 'baseline+++' include box refinement, context, and multi-scale testing in Table 9."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p11_table12.png",
+    "caption": "Table 11. Detection results on the PASCAL VOC 2012 test set ( http://host.robots.ox.ac.uk:8080/leaderboard/ displaylb.php?challengeid=11&compid=4 ). The baseline is the Faster R-CNN system. The system 'baseline+++' include box refinement, context, and multi-scale testing in Table 9."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p11_table13.png",
+    "caption": "Table 12. Our results (mAP, %) on the ImageNet detection dataset. Our detection system is Faster R-CNN [32] with the improvements in Table 9, using ResNet-101."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 12,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p12_table14.png",
+    "caption": "Table 13. Localization error (%) on the ImageNet validation. In the column of 'LOC error on GT class' ([41]), the ground truth class is used. In the 'testing' column, '1-crop' denotes testing on a center crop of 224 × 224 pixels, 'dense' denotes dense (fully convolutional) and multi-scale testing."
+  },
+  {
+    "doc_id": "Denseresultstable",
+    "page_num": 12,
+    "type": "table",
+    "image_path": "data\\images\\Denseresultstable_p12_table15.png",
+    "caption": "Table 14. Comparisons of localization error (%) on the ImageNet dataset with state-of-the-art methods."
+  },
+  {
     "doc_id": "Longdocument",
     "page_num": 1,
     "type": "figure",
@@ -82,6 +187,62 @@
     "type": "figure",
     "image_path": "data\\images\\Longdocument_p7_fig5.png",
     "caption": "Figure 5: Hybrid enhancements for multimodal RAG. (a) Graph-based: documents/elements form a graph index, and retrieval proceeds via graph traversal to surface relevant neighborhoods. (b) Agent-based: an LLM agent decomposes the text query, orchestrates multimodal retrieval, verifies the gathered evidence, and synthesizes the final answer."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 2,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p2_table1.png",
+    "caption": "Table 1: Scale of representative document RAG benchmarks. Visual tokens are estimated assuming ∼ 1K visual tokens per page."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 4,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p4_table2.png",
+    "caption": "Table 2: Comparison of recent Multimodal RAG methods for document understanding. The table summarizes methods along the following dimensions: venue, backbone LLM/VLM, vision encoder, training status, OCR integration, domain scope, retrieval modality, retrieval granularity, graph incorporation, and agent usage."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p8_table3.png",
+    "caption": "Table 3: Overview of datasets and benchmarks in multimodal RAG for document understanding. We report the number of queries, dataset size, and covered content types ( filetextalt Text, table Tables, | Charts, 424 Slides). (D) and (I) indicate that the count refers to documents or images, respectively. The upper part covers widely used multimodal document understanding datasets; the lower part compiles recent multimodal RAG benchmarks introduced by methods surveyed in this paper to address prior limitations."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 19,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p19_table4.png",
+    "caption": "Table 4: Evaluation results of RAG methods. The upper block shows retrieval evaluation and the lower block shows generation evaluation . Different background shades are used to separate the two parts."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 25,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p25_table5.png",
+    "caption": "Table 5: Representative open-source RAG frameworks frequently used in industrial-style deployments. GitHub star counts are approximate and reported as of December 2025."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 30,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p30_table6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 31,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p31_table7.png",
+    "caption": "Table 7: Key contributions of multimodal RAG methods for document understanding (Part1)."
+  },
+  {
+    "doc_id": "Longdocument",
+    "page_num": 32,
+    "type": "table",
+    "image_path": "data\\images\\Longdocument_p32_table8.png",
+    "caption": "Table 8: Key contributions of multimodal RAG methods for document understanding (Part2)."
   },
   {
     "doc_id": "multi-part figures",
@@ -131,6 +292,111 @@
     "type": "figure",
     "image_path": "data\\images\\multi-part figures_p8_fig7.png",
     "caption": "Figure 6. Training on CIFAR-10 . Dashed lines denote training error, and bold lines denote testing error. Left : plain networks. The error of plain-110 is higher than 60% and not displayed. Middle : ResNets. Right : ResNets with 110 and 1202 layers."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p5_table1.png",
+    "caption": "Table 1. Architectures for ImageNet. Building blocks are shown in brackets (see also Fig. 5), with the numbers of blocks stacked. Downsampling is performed by conv3 1, conv4 1, and conv5 1 with a stride of 2."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p5_table2.png",
+    "caption": "Figure 4. Training on ImageNet . Thin curves denote training error, and bold curves denote validation error of the center crops. Left: plain networks of 18 and 34 layers. Right: ResNets of 18 and 34 layers. In this plot, the residual networks have no extra parameter compared to their plain counterparts."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p6_table3.png",
+    "caption": "Table 3. Error rates (%, 10-crop testing) on ImageNet validation. VGG-16 is based on our test. ResNet-50/101/152 are of option B that only uses projections for increasing dimensions."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p6_table4.png",
+    "caption": "Table 4. Error rates (%) of single-model results on the ImageNet validation set (except † reported on the test set)."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p6_table5.png",
+    "caption": "Table 5. Error rates (%) of ensembles . The top-5 error is on the test set of ImageNet and reported by the test server."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p7_table6.png",
+    "caption": ""
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p7_table7.png",
+    "caption": "Table 6. Classification error on the CIFAR-10 test set. All methods are with data augmentation. For ResNet-110, we run it 5 times and show 'best (mean ± std)' as in [43]."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p8_table8.png",
+    "caption": "Table 7. Object detection mAP (%) on the PASCAL VOC 2007/2012 test sets using baseline Faster R-CNN. See also Table 10 and 11 for better results."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p8_table9.png",
+    "caption": "Table 8. Object detection mAP (%) on the COCO validation set using baseline Faster R-CNN. See also Table 9 for better results."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p11_table10.png",
+    "caption": "Table 9. Object detection improvements on MS COCO using Faster R-CNN and ResNet-101."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p11_table11.png",
+    "caption": "Table 10. Detection results on the PASCAL VOC 2007 test set. The baseline is the Faster R-CNN system. The system 'baseline+++' include box refinement, context, and multi-scale testing in Table 9."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p11_table12.png",
+    "caption": "Table 11. Detection results on the PASCAL VOC 2012 test set ( http://host.robots.ox.ac.uk:8080/leaderboard/ displaylb.php?challengeid=11&compid=4 ). The baseline is the Faster R-CNN system. The system 'baseline+++' include box refinement, context, and multi-scale testing in Table 9."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 11,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p11_table13.png",
+    "caption": "Table 12. Our results (mAP, %) on the ImageNet detection dataset. Our detection system is Faster R-CNN [32] with the improvements in Table 9, using ResNet-101."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 12,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p12_table14.png",
+    "caption": "Table 13. Localization error (%) on the ImageNet validation. In the column of 'LOC error on GT class' ([41]), the ground truth class is used. In the 'testing' column, '1-crop' denotes testing on a center crop of 224 × 224 pixels, 'dense' denotes dense (fully convolutional) and multi-scale testing."
+  },
+  {
+    "doc_id": "multi-part figures",
+    "page_num": 12,
+    "type": "table",
+    "image_path": "data\\images\\multi-part figures_p12_table15.png",
+    "caption": "Table 14. Comparisons of localization error (%) on the ImageNet dataset with state-of-the-art methods."
   },
   {
     "doc_id": "Multiplefiguretypes",
@@ -238,6 +504,97 @@
     "caption": "Figure 14: Further example attention maps as in Figure 6 (random selection)."
   },
   {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p5_table1.png",
+    "caption": "Table 1: Details of Vision Transformer model variants."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p6_table2.png",
+    "caption": "Table 2: Comparison with state of the art on popular image classification benchmarks. We report mean and standard deviation of the accuracies, averaged over three fine-tuning runs. Vision Transformer models pre-trained on the JFT-300M dataset outperform ResNet-based baselines on all datasets, while taking substantially less computational resources to pre-train. ViT pre-trained on the smaller public ImageNet-21k dataset performs well too. ∗ Slightly improved 88 . 5% result reported in Touvron et al. (2020)."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 13,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p13_table3.png",
+    "caption": "Table 3: Hyperparameters for training. All models are trained with a batch size of 4096 and learning rate warmup of 10k steps. For ImageNet we found it beneficial to additionally apply gradient clipping at global norm 1. Training resolution is 224."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 14,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p14_table4.png",
+    "caption": "Table 4: Hyperparameters for fine-tuning. All models are fine-tuned with cosine learning rate decay, a batch size of 512, no weight decay, and grad clipping at global norm 1. If not mentioned otherwise, fine-tuning resolution is 384."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 15,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p15_table5.png",
+    "caption": "Table 5: Top1 accuracy (in %) of Vision Transformer on various datasets when pre-trained on ImageNet, ImageNet-21k or JFT300M. These values correspond to Figure 3 in the main text. Models are fine-tuned at 384 resolution. Note that the ImageNet results are computed without additional techniques (Polyak averaging and 512 resolution images) used to achieve results in Table 2."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 15,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p15_table6.png",
+    "caption": "Table 6: Detailed results of model scaling experiments. These correspond to Figure 5 in the main paper. We show transfer accuracy on several datasets, as well as the pre-training compute (in exaFLOPs)."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 16,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p16_table7.png",
+    "caption": "Table 7: Fine-tuning ResNet models pre-trained with Adam and SGD."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 17,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p17_table8.png",
+    "caption": "Table 8: Results of the ablation study on positional embeddings with ViT-B/16 model evaluated on ImageNet 5-shot linear."
+  },
+  {
+    "doc_id": "Multiplefiguretypes",
+    "page_num": 22,
+    "type": "table",
+    "image_path": "data\\images\\Multiplefiguretypes_p22_table9.png",
+    "caption": "Table 9: Breakdown of VTAB-1k performance across tasks."
+  },
+  {
+    "doc_id": "Simplebaseline",
+    "page_num": 5,
+    "type": "table",
+    "image_path": "data\\images\\Simplebaseline_p5_table1.png",
+    "caption": "Table 1: Frame classification accuracy and WER showing that the distilled single model performs about as well as the averaged predictions of 10 models that were used to create the soft targets."
+  },
+  {
+    "doc_id": "Simplebaseline",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\Simplebaseline_p7_table2.png",
+    "caption": "Table 3: Classification accuracy (top 1) on the JFT development set."
+  },
+  {
+    "doc_id": "Simplebaseline",
+    "page_num": 7,
+    "type": "table",
+    "image_path": "data\\images\\Simplebaseline_p7_table3.png",
+    "caption": "Table 4: Top 1 accuracy improvement by # of specialist models covering correct class on the JFT test set."
+  },
+  {
+    "doc_id": "Simplebaseline",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\Simplebaseline_p8_table4.png",
+    "caption": "Table 5: Soft targets allow a new model to generalize well from only 3% of the training set. The soft targets are obtained by training on the full training set."
+  },
+  {
     "doc_id": "Two-column layout",
     "page_num": 3,
     "type": "figure",
@@ -285,5 +642,33 @@
     "type": "figure",
     "image_path": "data\\images\\Two-column layout_p15_fig7.png",
     "caption": "Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 6,
+    "type": "table",
+    "image_path": "data\\images\\Two-column layout_p6_table1.png",
+    "caption": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 8,
+    "type": "table",
+    "image_path": "data\\images\\Two-column layout_p8_table2.png",
+    "caption": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 9,
+    "type": "table",
+    "image_path": "data\\images\\Two-column layout_p9_table3.png",
+    "caption": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities."
+  },
+  {
+    "doc_id": "Two-column layout",
+    "page_num": 10,
+    "type": "table",
+    "image_path": "data\\images\\Two-column layout_p10_table4.png",
+    "caption": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)"
   }
 ]

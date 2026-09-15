@@ -10,7 +10,7 @@ from src.parsing.docling_parser import DoclingParser
 def main():
     parser = DoclingParser()
 
-    pdf_path = Path("data/input/Simplebaseline.pdf")
+    pdf_path = Path("data/input/Denseresultstable.pdf")
 
     document = parser.converter.convert(str(pdf_path)).document
     print("TEXT ITEMS:", len(document.texts))

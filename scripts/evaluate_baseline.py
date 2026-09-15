@@ -239,7 +239,7 @@ def main():
                 "answer_match": answer_match,
             }
         )
-
+        print(f"Category: {category}")
         print(f"Page hit: {page_hit}")
         print(f"Answer match: {answer_match}")
         print(f"Hallucination check: {hallucination_pass}")
